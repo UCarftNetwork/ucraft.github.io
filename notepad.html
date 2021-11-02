@@ -1,0 +1,7 @@
+<body contenteditable="true" 
+
+      onload="document.querySelector('body').innerHTML = window.localStorage.getItem('save');"
+
+      onkeyup="window.localStorage.setItem('save', document.querySelector('body').innerHTML);"
+
+      style="font-size: 21px; width: 400px; margin: 70px auto auto auto;">
